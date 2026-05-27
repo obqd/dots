@@ -1,0 +1,15 @@
+* {
+    font-family: "CaskaydiaCove Nerd Font";
+    font-size: 16px;
+    min-height: 0;
+}
+window#waybar {
+    background: rgba(14, 14, 17, 0.8);
+    color: rgb(192, 206, 218);
+    border-radius: 6px;
+}
+window#waybar > box.horizontal:dir(ltr) {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
