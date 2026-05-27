@@ -7,7 +7,7 @@ Steps to install: <br>
 2. Make a backup of your current configs.
   ```
   mkdir -p ~/config-bk
-  cp ~/.config ~/config-bk
+  cp -R ~/.config ~/config-bk
   ```
 3. Then copy the configs over in your `.config`.
   ```
