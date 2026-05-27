@@ -12,5 +12,6 @@ Steps to install: <br>
 3. Then copy the configs over in your `.config`.
   ```
   git clone https://github.com/obqd/dots.git ~/config/
-  cp -R ~/config/ ~/.config/
+  cp -R ~/config/mango/ ~/config/foot ~/config/waybar ~/config/rofi ~/.config/
+  rm -R ~/config
   ```
