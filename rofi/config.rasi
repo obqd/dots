@@ -1,0 +1,32 @@
+configuration {
+  display-drun: "";
+  font: "CaskaydiaCove Nerd Font 15";
+}
+
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+* {
+  background: transparent;
+  border-radius: 6;
+}
+
+element {
+  padding: 6;
+}
+
+entry {
+  placeholder: "";
+  padding: 6;
+}
+
+window {
+  padding: 6 0 6 0;
+  width: 20%;
+  background-color: rgba(14, 14, 17, 0.8);
+}
+
+listview {
+  scrollbar: false;
+  columns: 1;
+  lines: 5;
+}
